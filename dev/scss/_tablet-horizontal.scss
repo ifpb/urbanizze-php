@@ -1,0 +1,20 @@
+/* TABLET HORIZONTAL 1024 x 1280px
+------------------------------------------------ */
+
+@media only screen
+and (min-width : 1024px)
+and (max-width : 1220px) {
+
+}
+
+@media (min-width: 992px) {
+	/* SHOW DROPDOWN MENU ON HOVER
+	------------------------------------------------ */
+	.dropdown:hover > .dropdown-menu {
+	    display: block;
+	}
+	.dropdown > .dropdown-toggle:active {
+	    /*Without this, clicking will make it sticky*/
+	    pointer-events: none;
+	}
+}

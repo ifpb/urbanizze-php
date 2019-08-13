@@ -1,0 +1,11 @@
+AddType fonts/ttf .ttf 
+AddType fonts/eot .eot 
+AddType fonts/otf .otf 
+AddType fonts/woff .woff 
+# Acesso restrito!
+Options -Indexes
+<FilesMatch "\.(ttf|otf|eot|woff)$">
+<IfModule mod_headers.c>
+Header set Access-Control-Allow-Origin "*"
+</IfModule>
+</FilesMatch>

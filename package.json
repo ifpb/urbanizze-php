@@ -1,0 +1,40 @@
+{
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp.spritesmith": "^6.9.0",
+    "merge-stream": "^1.0.1",
+    "vinyl-buffer": "^1.0.1"
+  },
+  "name": "urbanizze",
+  "description": "Rodar o comando no terminal: `npm install gulp@3.9.1 gulp-connect-php browser-sync gulp.spritesmith gulp-newer gulp-imagemin vinyl-buffer gulp-sourcemaps gulp-sass gulp-plumber gulp-uglify gulp-concat gulp-rename merge-stream gulp-notify --save-dev`",
+  "version": "2.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/mariodavi/urbanizze.git"
+  },
+  "keywords": [
+    "arquitetura",
+    "urbanismo",
+    "projetos"
+  ],
+  "author": "Imaginária",
+  "devweb": "Mário Davi - mariodavi.com - falecom@mariodavi.com"
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/mariodavi/urbanizze#readme"
+}
